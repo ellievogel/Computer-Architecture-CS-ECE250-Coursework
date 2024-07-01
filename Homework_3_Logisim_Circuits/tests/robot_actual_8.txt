@@ -1,0 +1,404 @@
+  0       out         out_1D                0
+  0       out         out_2D                0
+  0       out         out_tired             0
+
+  1re     out         out_1D                0
+  1re     out         out_2D                1
+  1re     out         out_tired             0
+
+  2re     out         out_1D                0
+  2re     out         out_2D                1
+  2re     out         out_tired             1
+
+  3re     out         out_1D                0
+  3re     out         out_2D                1
+  3re     out         out_tired             1
+
+  4re     out         out_1D                0
+  4re     out         out_2D                0
+  4re     out         out_tired             0
+
+  5re     out         out_1D                0
+  5re     out         out_2D                0
+  5re     out         out_tired             0
+
+  6re     out         out_1D                0
+  6re     out         out_2D                0
+  6re     out         out_tired             0
+
+  7re     out         out_1D                0
+  7re     out         out_2D                0
+  7re     out         out_tired             0
+
+  8re     out         out_1D                0
+  8re     out         out_2D                0
+  8re     out         out_tired             0
+
+  9re     out         out_1D                1
+  9re     out         out_2D                0
+  9re     out         out_tired             0
+
+  10re    out         out_1D                0
+  10re    out         out_2D                1
+  10re    out         out_tired             1
+
+  11re    out         out_1D                1
+  11re    out         out_2D                0
+  11re    out         out_tired             1
+
+  12re    out         out_1D                0
+  12re    out         out_2D                1
+  12re    out         out_tired             1
+
+  13re    out         out_1D                0
+  13re    out         out_2D                1
+  13re    out         out_tired             1
+
+  14re    out         out_1D                1
+  14re    out         out_2D                0
+  14re    out         out_tired             1
+
+  15re    out         out_1D                0
+  15re    out         out_2D                0
+  15re    out         out_tired             0
+
+  16re    out         out_1D                0
+  16re    out         out_2D                0
+  16re    out         out_tired             0
+
+  17re    out         out_1D                0
+  17re    out         out_2D                1
+  17re    out         out_tired             0
+
+  18re    out         out_1D                0
+  18re    out         out_2D                0
+  18re    out         out_tired             0
+
+  19re    out         out_1D                0
+  19re    out         out_2D                1
+  19re    out         out_tired             0
+
+  20re    out         out_1D                1
+  20re    out         out_2D                0
+  20re    out         out_tired             1
+
+  21re    out         out_1D                0
+  21re    out         out_2D                0
+  21re    out         out_tired             0
+
+  22re    out         out_1D                0
+  22re    out         out_2D                1
+  22re    out         out_tired             0
+
+  23re    out         out_1D                0
+  23re    out         out_2D                1
+  23re    out         out_tired             1
+
+  24re    out         out_1D                0
+  24re    out         out_2D                0
+  24re    out         out_tired             0
+
+  25re    out         out_1D                0
+  25re    out         out_2D                1
+  25re    out         out_tired             0
+
+  26re    out         out_1D                0
+  26re    out         out_2D                1
+  26re    out         out_tired             1
+
+  27re    out         out_1D                1
+  27re    out         out_2D                0
+  27re    out         out_tired             1
+
+  28re    out         out_1D                0
+  28re    out         out_2D                0
+  28re    out         out_tired             0
+
+  29re    out         out_1D                0
+  29re    out         out_2D                0
+  29re    out         out_tired             0
+
+  30re    out         out_1D                1
+  30re    out         out_2D                0
+  30re    out         out_tired             0
+
+  31re    out         out_1D                0
+  31re    out         out_2D                1
+  31re    out         out_tired             1
+
+  32re    out         out_1D                1
+  32re    out         out_2D                0
+  32re    out         out_tired             1
+
+  33re    out         out_1D                1
+  33re    out         out_2D                0
+  33re    out         out_tired             1
+
+  34re    out         out_1D                0
+  34re    out         out_2D                0
+  34re    out         out_tired             0
+
+  35re    out         out_1D                0
+  35re    out         out_2D                0
+  35re    out         out_tired             0
+
+  36re    out         out_1D                0
+  36re    out         out_2D                0
+  36re    out         out_tired             0
+
+  37re    out         out_1D                0
+  37re    out         out_2D                0
+  37re    out         out_tired             0
+
+  38re    out         out_1D                0
+  38re    out         out_2D                0
+  38re    out         out_tired             0
+
+  39re    out         out_1D                0
+  39re    out         out_2D                1
+  39re    out         out_tired             0
+
+  40re    out         out_1D                0
+  40re    out         out_2D                1
+  40re    out         out_tired             1
+
+  41re    out         out_1D                0
+  41re    out         out_2D                0
+  41re    out         out_tired             0
+
+  42re    out         out_1D                0
+  42re    out         out_2D                1
+  42re    out         out_tired             0
+
+  43re    out         out_1D                0
+  43re    out         out_2D                1
+  43re    out         out_tired             1
+
+  44re    out         out_1D                1
+  44re    out         out_2D                0
+  44re    out         out_tired             1
+
+  45re    out         out_1D                0
+  45re    out         out_2D                0
+  45re    out         out_tired             0
+
+  46re    out         out_1D                1
+  46re    out         out_2D                0
+  46re    out         out_tired             0
+
+  47re    out         out_1D                0
+  47re    out         out_2D                0
+  47re    out         out_tired             0
+
+  48re    out         out_1D                0
+  48re    out         out_2D                0
+  48re    out         out_tired             0
+
+  49re    out         out_1D                1
+  49re    out         out_2D                0
+  49re    out         out_tired             0
+
+  50re    out         out_1D                0
+  50re    out         out_2D                0
+  50re    out         out_tired             0
+
+  51re    out         out_1D                0
+  51re    out         out_2D                0
+  51re    out         out_tired             0
+
+  52re    out         out_1D                0
+  52re    out         out_2D                0
+  52re    out         out_tired             0
+
+  53re    out         out_1D                0
+  53re    out         out_2D                0
+  53re    out         out_tired             0
+
+  54re    out         out_1D                0
+  54re    out         out_2D                0
+  54re    out         out_tired             0
+
+  55re    out         out_1D                1
+  55re    out         out_2D                0
+  55re    out         out_tired             0
+
+  56re    out         out_1D                0
+  56re    out         out_2D                0
+  56re    out         out_tired             0
+
+  57re    out         out_1D                0
+  57re    out         out_2D                0
+  57re    out         out_tired             0
+
+  58re    out         out_1D                1
+  58re    out         out_2D                0
+  58re    out         out_tired             0
+
+  59re    out         out_1D                0
+  59re    out         out_2D                0
+  59re    out         out_tired             0
+
+  60re    out         out_1D                0
+  60re    out         out_2D                0
+  60re    out         out_tired             0
+
+  61re    out         out_1D                0
+  61re    out         out_2D                0
+  61re    out         out_tired             0
+
+  62re    out         out_1D                0
+  62re    out         out_2D                0
+  62re    out         out_tired             0
+
+  63re    out         out_1D                1
+  63re    out         out_2D                0
+  63re    out         out_tired             0
+
+  64re    out         out_1D                1
+  64re    out         out_2D                0
+  64re    out         out_tired             1
+
+  65re    out         out_1D                1
+  65re    out         out_2D                0
+  65re    out         out_tired             1
+
+  66re    out         out_1D                0
+  66re    out         out_2D                0
+  66re    out         out_tired             0
+
+  67re    out         out_1D                0
+  67re    out         out_2D                1
+  67re    out         out_tired             0
+
+  68re    out         out_1D                0
+  68re    out         out_2D                0
+  68re    out         out_tired             0
+
+  69re    out         out_1D                0
+  69re    out         out_2D                0
+  69re    out         out_tired             0
+
+  70re    out         out_1D                0
+  70re    out         out_2D                1
+  70re    out         out_tired             0
+
+  71re    out         out_1D                0
+  71re    out         out_2D                0
+  71re    out         out_tired             0
+
+  72re    out         out_1D                0
+  72re    out         out_2D                1
+  72re    out         out_tired             0
+
+  73re    out         out_1D                1
+  73re    out         out_2D                0
+  73re    out         out_tired             1
+
+  74re    out         out_1D                0
+  74re    out         out_2D                0
+  74re    out         out_tired             0
+
+  75re    out         out_1D                0
+  75re    out         out_2D                0
+  75re    out         out_tired             0
+
+  76re    out         out_1D                0
+  76re    out         out_2D                0
+  76re    out         out_tired             0
+
+  77re    out         out_1D                1
+  77re    out         out_2D                0
+  77re    out         out_tired             0
+
+  78re    out         out_1D                0
+  78re    out         out_2D                1
+  78re    out         out_tired             1
+
+  79re    out         out_1D                0
+  79re    out         out_2D                0
+  79re    out         out_tired             0
+
+  80re    out         out_1D                0
+  80re    out         out_2D                0
+  80re    out         out_tired             0
+
+  81re    out         out_1D                0
+  81re    out         out_2D                0
+  81re    out         out_tired             0
+
+  82re    out         out_1D                1
+  82re    out         out_2D                0
+  82re    out         out_tired             0
+
+  83re    out         out_1D                0
+  83re    out         out_2D                0
+  83re    out         out_tired             0
+
+  84re    out         out_1D                0
+  84re    out         out_2D                0
+  84re    out         out_tired             0
+
+  85re    out         out_1D                1
+  85re    out         out_2D                0
+  85re    out         out_tired             0
+
+  86re    out         out_1D                1
+  86re    out         out_2D                0
+  86re    out         out_tired             1
+
+  87re    out         out_1D                0
+  87re    out         out_2D                0
+  87re    out         out_tired             0
+
+  88re    out         out_1D                0
+  88re    out         out_2D                0
+  88re    out         out_tired             0
+
+  89re    out         out_1D                1
+  89re    out         out_2D                0
+  89re    out         out_tired             0
+
+  90re    out         out_1D                0
+  90re    out         out_2D                1
+  90re    out         out_tired             1
+
+  91re    out         out_1D                0
+  91re    out         out_2D                1
+  91re    out         out_tired             1
+
+  92re    out         out_1D                0
+  92re    out         out_2D                0
+  92re    out         out_tired             0
+
+  93re    out         out_1D                1
+  93re    out         out_2D                0
+  93re    out         out_tired             0
+
+  94re    out         out_1D                0
+  94re    out         out_2D                1
+  94re    out         out_tired             1
+
+  95re    out         out_1D                0
+  95re    out         out_2D                0
+  95re    out         out_tired             0
+
+  96re    out         out_1D                0
+  96re    out         out_2D                1
+  96re    out         out_tired             0
+
+  97re    out         out_1D                0
+  97re    out         out_2D                1
+  97re    out         out_tired             1
+
+  98re    out         out_1D                1
+  98re    out         out_2D                0
+  98re    out         out_tired             1
+
+  99re    out         out_1D                1
+  99re    out         out_2D                0
+  99re    out         out_tired             1
+
+  100re   out         out_1D                0
+  100re   out         out_2D                1
+  100re   out         out_tired             1
+

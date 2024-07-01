@@ -1,0 +1,32 @@
+  0       out         out_1D               0
+  0       out         out_2D               0
+  0       out         out_tired            0
+
+  1re     out         out_1D               0
+  1re     out         out_2D               1
+  1re     out         out_tired            0
+
+  2re     out         out_1D               1
+  2re     out         out_2D               0
+  2re     out         out_tired            1
+
+  3re     out         out_1D               1
+  3re     out         out_2D               0
+  3re     out         out_tired            1
+
+  4re     out         out_1D               0
+  4re     out         out_2D               0
+  4re     out         out_tired            0
+
+  5re     out         out_1D               0
+  5re     out         out_2D               1
+  5re     out         out_tired            0
+
+  6re     out         out_1D               0
+  6re     out         out_2D               1
+  6re     out         out_tired            1
+
+  7re     out         out_1D               0
+  7re     out         out_2D               0
+  7re     out         out_tired            0
+

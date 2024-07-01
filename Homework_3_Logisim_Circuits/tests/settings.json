@@ -1,0 +1,70 @@
+{
+  "mode": "logisim",
+  "test_suites": {
+    "circuit1a": {
+      "tests": [
+        { "desc": "A=0, B=0, C=0",  "args": ["-ip", "A=0,B=0,C=0", "-c", "0"] },
+        { "desc": "A=0, B=0, C=1",  "args": ["-ip", "A=0,B=0,C=1", "-c", "0"] },
+        { "desc": "A=1, B=0, C=1",  "args": ["-ip", "A=1,B=0,C=1", "-c", "0"] },
+        { "desc": "A=1, B=1, C=1",  "args": ["-ip", "A=1,B=1,C=1", "-c", "0"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Button", "Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Adder", "Subtractor", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        }
+      ]
+    },
+    "circuit1c": {
+      "tests": [
+        { "desc": "A=0, B=0, C=0",  "args": ["-ip", "A=0,B=0,C=0", "-c", "0"] },
+        { "desc": "A=1, B=0, C=0",  "args": ["-ip", "A=1,B=0,C=0", "-c", "0"] },
+        { "desc": "A=1, B=1, C=0",  "args": ["-ip", "A=1,B=1,C=0", "-c", "0"] },
+        { "desc": "A=0, B=0, C=1",  "args": ["-ip", "A=0,B=0,C=1", "-c", "0"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Button", "Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Adder", "Subtractor", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        }
+      ]
+    },
+    "my_adder": {
+      "tests": [
+        { "desc": "A=0xABCD, B=0x5678, sub=0", "args": ["-c", "0", "-ip", "A=0xABCD,B=0x5678,sub=0", "-of", "h"] },
+        { "desc": "A=0x7531, B=0x6420, sub=1", "args": ["-c", "0", "-ip", "A=0x7531,B=0x6420,sub=1", "-of", "h"] },
+        { "desc": "A=0x9BDF, B=0x8ACE, sub=0", "args": ["-c", "0", "-ip", "A=0x9BDF,B=0x8ACE,sub=0", "-of", "h"] },
+        { "desc": "A=0xABCD, B=0x5678, sub=1", "args": ["-c", "0", "-ip", "A=0xABCD,B=0x5678,sub=1", "-of", "h"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Button", "Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        },
+        {
+          "penalty": 0.0,
+          "components": ["Adder", "Subtractor"]
+        }
+      ]
+    },
+    "robot": {
+      "tests": [
+        { "desc": "constant input: stopall=0, stopupdown=0, 5 cycles", "args": ["-ip", "in_stopupdown=0,in_stopall=0", "-c", "5"]},
+        { "desc": "constant input: stopall=0, stopupdown=1, 5 cycles", "args": ["-ip", "in_stopupdown=1,in_stopall=0", "-c", "5"]},
+        { "desc": "constant input: stopall=1, stopupdown=1, 5 cycles", "args": ["-ip", "in_stopupdown=1,in_stopall=1", "-c", "5"]},
+        { "desc": "constant input: stopall=1, stopupdown=0, 5 cycles", "args": ["-ip", "in_stopupdown=0,in_stopall=1", "-c", "5"]},
+        { "desc": "both 1D and 2D motion, 6 cycles", "args": ["-ic", "0,in_stopupdown=1,in_stopall=1:1,in_stopupdown=0,in_stopall=0:2,in_stopupdown=1,in_stopall=0:3,in_stopupdown=1,in_stopall=0:4,in_stopupdown=0,in_stopall=0:5,in_stopupdown=0,in_stopall=0", "-c", "5"]},
+        { "desc": "both 1D and 2D motion with stops, 8 cycles", "args": ["-ic", "0,in_stopupdown=1,in_stopall=1:1,in_stopupdown=0,in_stopall=0:2,in_stopupdown=1,in_stopall=0:3,in_stopupdown=1,in_stopall=0:4,in_stopupdown=1,in_stopall=1:5,in_stopupdown=0,in_stopall=0:6,in_stopupdown=0,in_stopall=0:7,in_stopupdown=1,in_stopall=1", "-c", "7"]},
+        { "desc": "normal movement, 11 cycles", "args": ["-ic", "0,in_stopupdown=1,in_stopall=1:1,in_stopupdown=0,in_stopall=0:2,in_stopupdown=1,in_stopall=1:3,in_stopupdown=0,in_stopall=0:4,in_stopupdown=0,in_stopall=0:5,in_stopupdown=1,in_stopall=0:6,in_stopupdown=1,in_stopall=0:7,in_stopupdown=1,in_stopall=1:8,in_stopupdown=1,in_stopall=0:9,in_stopupdown=0,in_stopall=0:10,in_stopupdown=1,in_stopall=1", "-c", "10"]},
+        { "desc": "stop_updown stuck OFF, 12 total cycles", "args": ["-ic", "0,in_stopupdown=1,in_stopall=1:1,in_stopupdown=0,in_stopall=0:2,in_stopupdown=0,in_stopall=0:3,in_stopupdown=0,in_stopall=0:4,in_stopupdown=0,in_stopall=0:5,in_stopupdown=0,in_stopall=1:6,in_stopupdown=0,in_stopall=1:7,in_stopupdown=0,in_stopall=0:8,in_stopupdown=0,in_stopall=0:9,in_stopupdown=0,in_stopall=0:10,in_stopupdown=0,in_stopall=0:11,in_stopupdown=0,in_stopall=1", "-c", "11"]},
+        { "desc": "Random input, 100 total cycles", "args": ["-ic", "0,in_stopupdown=1,in_stopall=1:1,in_stopupdown=0,in_stopall=0:2,in_stopupdown=0,in_stopall=0:3,in_stopupdown=0,in_stopall=0:4,in_stopupdown=0,in_stopall=1:5,in_stopupdown=1,in_stopall=1:6,in_stopupdown=1,in_stopall=1:7,in_stopupdown=0,in_stopall=1:8,in_stopupdown=0,in_stopall=1:9,in_stopupdown=1,in_stopall=0:10,in_stopupdown=0,in_stopall=0:11,in_stopupdown=1,in_stopall=0:12,in_stopupdown=0,in_stopall=0:13,in_stopupdown=0,in_stopall=0:14,in_stopupdown=1,in_stopall=0:15,in_stopupdown=0,in_stopall=1:16,in_stopupdown=0,in_stopall=1:17,in_stopupdown=0,in_stopall=0:18,in_stopupdown=0,in_stopall=1:19,in_stopupdown=0,in_stopall=0:20,in_stopupdown=1,in_stopall=0:21,in_stopupdown=0,in_stopall=1:22,in_stopupdown=0,in_stopall=0:23,in_stopupdown=0,in_stopall=0:24,in_stopupdown=0,in_stopall=1:25,in_stopupdown=0,in_stopall=0:26,in_stopupdown=0,in_stopall=0:27,in_stopupdown=1,in_stopall=0:28,in_stopupdown=0,in_stopall=1:29,in_stopupdown=0,in_stopall=1:30,in_stopupdown=1,in_stopall=0:31,in_stopupdown=0,in_stopall=0:32,in_stopupdown=1,in_stopall=0:33,in_stopupdown=1,in_stopall=0:34,in_stopupdown=0,in_stopall=1:35,in_stopupdown=0,in_stopall=1:36,in_stopupdown=1,in_stopall=1:37,in_stopupdown=1,in_stopall=1:38,in_stopupdown=1,in_stopall=1:39,in_stopupdown=0,in_stopall=0:40,in_stopupdown=0,in_stopall=0:41,in_stopupdown=0,in_stopall=1:42,in_stopupdown=0,in_stopall=0:43,in_stopupdown=0,in_stopall=0:44,in_stopupdown=1,in_stopall=0:45,in_stopupdown=0,in_stopall=1:46,in_stopupdown=1,in_stopall=0:47,in_stopupdown=0,in_stopall=1:48,in_stopupdown=1,in_stopall=1:49,in_stopupdown=1,in_stopall=0:50,in_stopupdown=1,in_stopall=1:51,in_stopupdown=0,in_stopall=1:52,in_stopupdown=1,in_stopall=1:53,in_stopupdown=1,in_stopall=1:54,in_stopupdown=0,in_stopall=1:55,in_stopupdown=1,in_stopall=0:56,in_stopupdown=0,in_stopall=1:57,in_stopupdown=1,in_stopall=1:58,in_stopupdown=1,in_stopall=0:59,in_stopupdown=1,in_stopall=1:60,in_stopupdown=1,in_stopall=1:61,in_stopupdown=0,in_stopall=1:62,in_stopupdown=1,in_stopall=1:63,in_stopupdown=1,in_stopall=0:64,in_stopupdown=1,in_stopall=0:65,in_stopupdown=1,in_stopall=0:66,in_stopupdown=1,in_stopall=1:67,in_stopupdown=0,in_stopall=0:68,in_stopupdown=0,in_stopall=1:69,in_stopupdown=0,in_stopall=1:70,in_stopupdown=0,in_stopall=0:71,in_stopupdown=0,in_stopall=1:72,in_stopupdown=0,in_stopall=0:73,in_stopupdown=1,in_stopall=0:74,in_stopupdown=0,in_stopall=1:75,in_stopupdown=1,in_stopall=1:76,in_stopupdown=0,in_stopall=1:77,in_stopupdown=1,in_stopall=0:78,in_stopupdown=0,in_stopall=0:79,in_stopupdown=1,in_stopall=1:80,in_stopupdown=1,in_stopall=1:81,in_stopupdown=1,in_stopall=1:82,in_stopupdown=1,in_stopall=0:83,in_stopupdown=1,in_stopall=1:84,in_stopupdown=0,in_stopall=1:85,in_stopupdown=1,in_stopall=0:86,in_stopupdown=1,in_stopall=0:87,in_stopupdown=1,in_stopall=1:88,in_stopupdown=1,in_stopall=1:89,in_stopupdown=1,in_stopall=0:90,in_stopupdown=0,in_stopall=0:91,in_stopupdown=0,in_stopall=0:92,in_stopupdown=1,in_stopall=1:93,in_stopupdown=1,in_stopall=0:94,in_stopupdown=0,in_stopall=0:95,in_stopupdown=1,in_stopall=1:96,in_stopupdown=0,in_stopall=0:97,in_stopupdown=0,in_stopall=0:98,in_stopupdown=1,in_stopall=0:99,in_stopupdown=1,in_stopall=0:100,in_stopupdown=0,in_stopall=0", "-c", "100"]}
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Adder", "Subtractor", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        }
+      ]
+    }
+  }
+}
