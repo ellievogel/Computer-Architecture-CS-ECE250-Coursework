@@ -43,3 +43,25 @@ The program calculates the plus/minus metric for each player using the formula:
 - Plus/Minus = (Points scored by the player's team) - (Points scored by the opposing team)
 
 The output will list each player's name along with their plus/minus value. The list is sorted in descending order based on the plus/minus metric. In case of a tie, players are sorted alphabetically by their last name.
+
+## Skills Highlight
+
+### C Programming
+
+### File I/O
+- Implemented file reading using `fgets` and `fscanf` to process and extract data from text files.
+- Handled input and output file operations, ensuring correct data retrieval and manipulation.
+
+### Command Line Arguments
+- Managed command line arguments to dynamically specify input files and parameters, enabling flexible program execution.
+
+### Memory Management
+- Understanding memory management for arrays and dynamic data structures in C, involving `malloc` and `free` for memory management.
+
+### Bubble Sort
+- Utilized bubble sort to order data based on specific criteria using customized comparators.
+
+### Debugging and Testing
+- Ensured that code compiles and runs correctly on Duke Linux machines, adhering to the specified environment requirements.
+- Tested programs with various inputs to validate correctness and handle potential edge cases.
+
