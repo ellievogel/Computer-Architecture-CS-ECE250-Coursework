@@ -1,6 +1,6 @@
 # C Programming Homework
 
-This repository contains solutions for a set of C programming problems. These exercises focus on file I/O, command line arguments, recursion, and custom sorting algorithms. Below is a brief overview of each problem and the skills demonstrated.
+This repository contains solutions for a set of C programming problems.
 
 ## Table of Contents
 
