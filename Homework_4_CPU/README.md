@@ -2,6 +2,8 @@
 
 This repository contains the design and implementation of a CPU using Logisim Evolution. The CPU supports a specified instruction set with 16 instructions, including arithmetic operations, comparators, branches, jumps, input, and output. The design features 8 general-purpose registers and adheres to a Harvard architecture with separate memory spaces for instructions and data.
 
+**File:** cpu.circ
+
 ## Table of Contents
 
 - [Register File](#register-file)
