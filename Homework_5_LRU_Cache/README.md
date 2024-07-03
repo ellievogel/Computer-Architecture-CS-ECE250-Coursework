@@ -2,7 +2,7 @@
 
 This repository contains a simulator of a single-level cache and the memory underneath it. The simulator processes memory access traces and simulates a cache with configurable size, associativity, and block size. The replacement policy used is LRU (Least Recently Used).
 
-**File** cachesim.c
+**File:** cachesim.c
 
 ## Table of Contents
 
