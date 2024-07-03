@@ -28,40 +28,16 @@ The simulator, called `cachesim`, takes the following input parameters on the co
 
 ## Program Output
 
-Your simulator must produce the following output. For every access, it must print out what kind of access it is (load or store), what address it’s accessing (in base-16), and whether it is a hit or a miss. For each load, it must print out the value that is loaded (possibly after satisfying the miss from memory). If an access requires a valid block to first be evicted, your simulator must print out the address of the evicted block (i.e., the address of byte 0 in that block) and whether it is dirty or clean (i.e., not dirty).
-
-# Cache Simulator (cachesim)
-
-This project is a simulator of a single-level cache and the memory underneath it. The simulator is implemented in C or Java and simulates a cache that processes loads and stores based on input parameters and a trace file. 
+For every access, the file prints out what kind of access it is (load or store), what address it’s accessing (in base-16), and whether it is a hit or a miss. For each load, it prints out the value that is loaded (possibly after satisfying the miss from memory). If an access requires a valid block to first be evicted, the simulator prints out the address of the evicted block and whether it is dirty or clean.
 
 ## Skills Highlight
 
-  - Developed a program that takes command line arguments for trace file name, cache size, associativity, and block size.
+### C Programming
 
-- **Cache Simulation:**
-  - Simulated a cache system with parameters including cache size (up to 2MB), associativity, and block size (up to 1024 bytes).
-  - Implemented LRU (Least Recently Used) replacement policy for cache.
-
-- **Memory Management:**
+### Memory Management
   - Addressed a 24-bit address space (16MB) with byte-addressable memory.
   - Managed cache states with valid and dirty bits.
   - Handled write-back and write-allocate policies.
 
-- **File I/O:**
+### File I/O
   - Parsed and processed memory access trace files with `fscanf` for reading whitespace-delimited tokens.
-
-- **Data Structures:**
-  - Utilized arrays and possibly linked lists to store cache blocks and main memory contents.
-  - Tracked cache and memory states efficiently.
-
-- **Performance Analysis:**
-  - Tracked cache hits, misses, and evictions, providing detailed output on cache operations.
-  - Evaluated performance impacts of different cache configurations.
-
-## Usage
-
-```sh
-./cachesim <trace-file> <cache-size-kB> <associativity> <block-size>
-
-
-
